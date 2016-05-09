@@ -21,7 +21,7 @@ can write as:
 
 ```
 .table
-  input.table-cell
-  .table-cell
-    submit
+  input.table-cell style="width:100%"
+  .table-cell style="width:5em"
+    submit stype="display:block"
 ```
