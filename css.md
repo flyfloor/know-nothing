@@ -25,3 +25,7 @@ can write as:
   .table-cell style="width:5em"
     submit stype="display:block"
 ```
+
+#### Css transition
+
+transition performance terrible under some Android smart phone, like xiaomi 4.
