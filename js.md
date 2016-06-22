@@ -5,3 +5,12 @@ in Forefox, execute on html's <object> element will return function.
 in Safari, Dom NodeList type still be function.  
 
 right way is  `Object.prototype.toString.call(fn) === "[object Function]"`
+
+
+### find out function caller type
+
+```
+function func(){
+  this instanceof arguments.callee
+}
+```
