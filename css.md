@@ -26,6 +26,8 @@ can write as:
     submit stype="display:block"
 ```
 
-#### Css transition
+#### Css3 transition
 
 transition performance terrible under some Android smart phone, like xiaomi 4.
+
+when use transform, change translateX to translate3d, to use GPU speed up.
