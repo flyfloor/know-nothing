@@ -14,3 +14,11 @@ function func(){
   this instanceof arguments.callee
 }
 ```
+
+### time
+
+```
+date.toLocaleDateString() //2016/6/24
+date.toLocaleString() //2016/6/24 下午6:34:35
+date.toLocaleTimeString() //下午6:34:35
+```
