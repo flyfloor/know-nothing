@@ -1,3 +1,3 @@
 # know-nothing
 
-Something that do not perform as usual
+Something that not know
