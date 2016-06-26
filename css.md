@@ -26,6 +26,15 @@ can write as:
     submit stype="display:block"
 ```
 
+
+#### table cell equal width
+
+```
+.table {
+  table-layout: fixed;
+}
+```
+
 #### Css3 transition
 
 transition performance terrible under some Android smart phone, like xiaomi 4.
