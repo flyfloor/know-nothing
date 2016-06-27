@@ -22,3 +22,22 @@ date.toLocaleDateString() //2016/6/24
 date.toLocaleString() //2016/6/24 下午6:34:35
 date.toLocaleTimeString() //下午6:34:35
 ```
+
+
+### greedy DOM IDs
+
+```
+<form id="form">
+    <input type="text" id="length"/>
+    <input type="submit" id="submit"/>
+</form>
+```
+
+```
+document.getElementsByTagName("input").length
+```
+
+under IE and opera will got `<input type="text" id="length"/>`, `document.getElementById("form").submit()` will throw an error.
+
+
+
