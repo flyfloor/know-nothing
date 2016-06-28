@@ -40,3 +40,28 @@ can write as:
 transition performance terrible under some Android smart phone, like xiaomi 4.
 
 when use transform, change translateX to translate3d, to use GPU speed up.
+
+
+
+### element.getAttribute('style')
+
+element.getAttribute('style') under ie is not working. use element.style.cssText instead.
+
+### Under ie, input type can't change after dom been inserted into document.
+
+### offsetWidth, offsetHeight
+
+normally use offsetWidth and offsetHeight to get element's width, height with padding. but if element 's attribute display is hidden, offsetWidth and offsetHeight will be 0; to calculate element's width and height:
+
+1. set attribute display to block.
+2. set visibility to hidden
+3. set position to absolute
+4. get offsetWidth and offsetHeight
+5. recovery changed attributes
+
+### offsetWidth and offsetHeight is 0 can judge whether element is visible.
+
+### Opacity
+
+If set opacity: .5; most browsers will got opacity: 0.5; under ie8, will still be opacity:.5.
+
