@@ -40,4 +40,7 @@ document.getElementsByTagName("input").length
 under IE and opera will got `<input type="text" id="length"/>`, `document.getElementById("form").submit()` will throw an error.
 
 
+### element.getAttribute('style') under ie is not working. use element.style.cssText instead.
+
+### input type can't change after dom been inserted into document.
 
